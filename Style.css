@@ -1,0 +1,301 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background: #f8f8f8;
+  color: #333;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #007BFF;
+  padding: 15px 30px;
+  color: white;
+  flex-wrap: wrap;
+}
+
+.logo {
+  width: 500px;
+  Length: 500px;
+  font-size: 24px;
+  font-weight: 600;
+  
+}
+
+nav a {
+  margin: 0 10px;
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.search-box {
+  padding: 10px;
+  width: 250px;
+  border: none;
+  border-radius: 5px;
+}
+
+.hero {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px;
+  background-color: #e0f7ff;
+}
+
+.hero-text {
+  flex: 1;
+  min-width: 300px;
+}
+
+.hero-text h1 {
+  font-size: 32px;
+  color: #007BFF;
+}
+
+.hero-image img {
+  width: 100%;
+  max-width: 500px;
+}
+
+.page-section {
+  padding: 40px;
+}
+
+.page-section h1 {
+  text-align: center;
+  margin-bottom: 30px;
+  color: #023047;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background: white;
+}
+
+th, td {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: left;
+}
+
+th {
+  background-color: #007BFF;
+  color: white;
+}
+
+.suggest-new {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.suggest-new button {
+  margin-top: 10px;
+  background: #fb8500;
+  color: white;
+  border: none;
+  padding: 10px 25px;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.testimonial-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.testimonial-card {
+  background: #ffb703;
+  padding: 20px;
+  border-radius: 10px;
+  width: 300px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.testimonial-card span {
+  display: block;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.location-section {
+  text-align: center;
+}
+
+.location-input, textarea {
+  width: 60%;
+  max-width: 400px;
+  margin: 10px 0;
+  padding: 12px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+.check-btn, .feedback-box button {
+  padding: 12px 25px;
+  background: #fb8500;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background: #f8f8f8;
+  color: #333;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #10002b;
+  padding: 15px 30px;
+  color: white;
+  flex-wrap: wrap;
+}
+
+.logo-img {
+  height: 50px;
+}
+
+nav a {
+  margin: 0 12px;
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.search-box {
+  padding: 10px;
+  width: 250px;
+  border: none;
+  border-radius: 5px;
+}
+
+.hero {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px;
+  background-color: #f0f0ff;
+}
+
+.hero-text {
+  flex: 1;
+  min-width: 300px;
+}
+
+.hero-text h1 {
+  font-size: 32px;
+  color: #10002b;
+}
+
+.hero-image img {
+  width: 100%;
+  max-width: 500px;
+}
+
+.page-section {
+  padding: 40px;
+}
+
+.page-section h1 {
+  text-align: center;
+  margin-bottom: 30px;
+  color: #10002b;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background: white;
+}
+
+th, td {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: left;
+}
+
+th {
+  background-color: #10002b;
+  color: white;
+}
+
+.suggest-new {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.suggest-new button {
+  margin-top: 10px;
+  background: #ffca28;
+  color: #10002b;
+  border: none;
+  padding: 10px 25px;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.testimonial-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.testimonial-card {
+  background: #ffca28;
+  color: #10002b;
+  padding: 20px;
+  border-radius: 10px;
+  width: 300px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.testimonial-card span {
+  display: block;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.location-section {
+  text-align: center;
+}
+
+.location-input, textarea {
+  width: 60%;
+  max-width: 400px;
+  margin: 10px 0;
+  padding: 12px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+.check-btn, .feedback-box button {
+  padding:
+
+
